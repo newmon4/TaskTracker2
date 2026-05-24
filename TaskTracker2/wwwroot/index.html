@@ -77,6 +77,16 @@
 
         async function addTask() {
             const value = document.getElementById("taskInput").value;
+            const lengthLimit = 50
+
+            if (value.length > lengthLimit) {
+                alert("max length =" + lengthLimit);
+                return;
+            }
+            if (value.length == 0) {
+                alert("Write at least 1 character");
+                return;
+            }
             const task = {
                 name: value
             }
@@ -105,7 +115,14 @@
 
         async function UIeditTask(id, name) {
             const newName = prompt("Edit Task", name);
-            editTask(id, newName)
+            const lengthLimit = 50
+
+            if (newName.length > lengthLimit) {
+                alert("max length =" + lengthLimit);
+                return;
+            }
+            
+            else editTask(id, newName)
             
         }
 
