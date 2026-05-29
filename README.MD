@@ -24,3 +24,14 @@
 2. Open TaskTracker2.slnx
 3. Run Project (https)
 - The page opens automatically. If not, open the URL shown in the console
+
+## Screenshots
+
+<details>
+<summary>View screenshots</summary>
+
+![Interface](https://github.com/newmon4/Task-Tracker/blob/master/Images/Interface_Frontend.png?raw=true)
+
+![Create Task](https://github.com/newmon4/Task-Tracker/blob/master/Images/Make_Task.png?raw=true)
+
+![Task](https://github.com/newmon4/Task-Tracker/blob/master/Images/Task_Showcase.png?raw=true)
